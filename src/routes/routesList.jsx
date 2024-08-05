@@ -47,7 +47,7 @@ const routesList = [
       </FrontLayout>
     ),
     children: [
-      { element: <HomePage />, index: true },
+      { element: <Navigate to={'/admin'} />, index: true },
 
       {
         path: "*",
